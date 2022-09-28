@@ -148,6 +148,21 @@ body.locked {
   overflow: hidden;
 }
 
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: gray;
+}
+
 @-webkit-keyframes fade {
   0% {
     opacity: 0;
@@ -274,6 +289,8 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: rgba(44, 54, 90, 0.8);
+  border-radius: 10px;
 }
 
 .logo {
@@ -320,6 +337,7 @@ nav {
 }
 
 .hero {
+  padding-top: 155px;
   padding-bottom: 70px;
   background-image: url(../img/bg-1.jpg);
   background-repeat: no-repeat;
@@ -552,7 +570,7 @@ nav {
 }
 
 .about {
-  padding: 220px 0;
+  padding: 350px 0 220px;
   background-image: url(../img/bg-1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
