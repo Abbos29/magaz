@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Landing Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Продукт</title>
+    <title>Отзывы</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -117,335 +117,172 @@
 <!-- Main Page -->
 <main>
 
-<!-- Product -->
-<section class="product">
+<!-- Review-page -->
+<section class="review-page">
     <div class="container">
+        <div class="review-page__wrapper">
 
-        <div class="product__case">
+            <img class="review-page__img" src="./img/product/product-img.jpg" alt="product-img">
 
-            <h3 class="product__name section-pretitle">Lorem Ipsum is simply lorem Ipsum is simply Ipsum is simply</h3>
+            <div class="review-page__box">
+                <p class="review-page__text">Lorem Ipsum is simply lorem Ipsum is simply Ipsum</p>
 
-            <div class="product__rating">
-                <img src="./img/maybe/rating-img.svg" alt="rating-img">
+                <div class="product__rating">
+                    <img src="./img/maybe/rating-img.svg" alt="rating-img">
 
-                <p class="product__rating-text">Купили более 486</p>
-                <p class="product__rating-text">123 отзыва</p>
-            </div>
-
-            <div class="product__wrapper">
-                <div class="poduct__wrapper-slider">
-                    <div class="swiper mySwiper2">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                        </div>
-
-                        <div class="swiper-next">
-                            <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path opacity="0.5" d="M13.0607 13.0607C13.6464 12.4749 13.6464 11.5251 13.0607 10.9393L3.51472 1.3934C2.92893 0.807611 1.97919 0.807611 1.3934 1.3934C0.807612 1.97918 0.807612 2.92893 1.3934 3.51472L9.87868 12L1.3934 20.4853C0.807611 21.0711 0.807611 22.0208 1.3934 22.6066C1.97918 23.1924 2.92893 23.1924 3.51472 22.6066L13.0607 13.0607ZM11 13.5L12 13.5L12 10.5L11 10.5L11 13.5Z" fill="#616161"/>
-                            </svg>
-                        </div>
-                        <div class="swiper-prev">
-                            <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path opacity="0.5" d="M0.93934 10.9393C0.353553 11.5251 0.353553 12.4749 0.93934 13.0607L10.4853 22.6066C11.0711 23.1924 12.0208 23.1924 12.6066 22.6066C13.1924 22.0208 13.1924 21.0711 12.6066 20.4853L4.12132 12L12.6066 3.51472C13.1924 2.92893 13.1924 1.97919 12.6066 1.3934C12.0208 0.807611 11.0711 0.807611 10.4853 1.3934L0.93934 10.9393ZM3 10.5H2L2 13.5H3V10.5Z" fill="#616161"/>
-                            </svg>
-                        </div>
-
-                    </div>
-
-                    <div thumbsSlider="" class="swiper mySwiper">
-                        <div class="swiper-wrapper">
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-
-                            <div class="swiper-slide">
-                                <img src="./img/product/product-img.jpg" alt="product-img">
-                            </div>
-                        
-                        </div>
-                    </div>
-                </div>
-
-                <div class="product__desc">
-
-                    <div class="product__prices">
-                        <p class="product__prices-new">000 000₽</p>
-                        <p class="product__prices-old">000 000₽</p>
-                    </div>
-
-                    <div class="product__cart">
-                        <a class="product__cart-btn btn red-btn" href="#">Добавить в корзину</a>
-                        <a class="product__cart-like" href="#">
-                            <svg width="34" height="31" viewBox="0 0 34 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.54511 2C5.3787 2 2 5.34399 2 9.46966C2 12.8001 3.32039 20.7043 16.3176 28.6946C16.5504 28.8363 16.8177 28.9112 17.0902 28.9112C17.3627 28.9112 17.63 28.8363 17.8628 28.6946C30.86 20.7043 32.1804 12.8001 32.1804 9.46966C32.1804 5.34399 28.8017 2 24.6353 2C21.5948 2 18.9738 4.41094 17.7793 5.71397C17.419 6.10696 16.7614 6.10696 16.4012 5.71397C15.2066 4.41094 12.5856 2 9.54511 2Z" stroke="#EC796C" stroke-width="2.3921" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-
-                    <div class="product__ship">
-                        <p class="product__ship-text">17 - 19 сентября доставит <span>вся-доставка.рф</span></p>
-                    </div>
-
-                    <ul class="product__list">
-                        <p class="product__list-title">О товаре</p>
-
-                        <li class="product__list-item">
-                            Lorem Ipsum
-                            <div class="product__list-line"></div>
-                            100
-                        </li>
-
-                        <li class="product__list-item">
-                            Lorem Ipsum
-                            <div class="product__list-line"></div>
-                            100
-                        </li>
-
-                        <li class="product__list-item">
-                            Lorem Ipsum
-                            <div class="product__list-line"></div>
-                            100
-                        </li>
-
-                        <li class="product__list-item">
-                            Lorem Ipsum
-                            <div class="product__list-line"></div>
-                            100
-                        </li>
-
-                        <li class="product__list-item">
-                            Lorem Ipsum
-                            <div class="product__list-line"></div>
-                            100
-                        </li>
-
-                        <a class="product__list-title" href="#">Все характеристики</a>
-                    </ul>
-
-                    <div class="product__company">
-                        <img class="product__company-img" src="./img/product/company-img.jpg" alt="company-img">
-
-                        <div class="product__company-inner">
-                            <p class="product__company-name">Название продавца</p>
-
-                            <div class="product__rating">
-                                <img src="./img/product/company-rate-icon.svg" alt="rating-img">
-                                <p class="product__rating-text">1234 отзывов</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <p class="product__rating-text">Купили более 486 раз</p>
                 </div>
             </div>
 
-        </div>
-
-    </div>
-</section>
-
-<!-- Description -->
-<section class="description">
-    <div class="container">
-        <div class="description__wrapper">
-            <div class="description__box">
-                <h3 class="description__title">Опиание</h3>
-
-                <p class="description__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget dui feugiat dui tellus tristique vel fermentum, tortor amet. Sit donec ipsum etiam viverra adipiscing. In mollis sit amet, ullamcorper quisque tincidunt elit. Sagittis scelerisque diam mauris ut felis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget dui feugiat dui tellus tristique vel fermentum</p>
+            <div class="review-page__prices">
+                <p class="review-page__prices-new">000 000₽</p>
+                <p class="review-page__prices-old">000 000₽</p>
             </div>
 
-            <ul class="product__list">
-                <p class="product__list-title">О товаре</p>
+            <div class="review-page__btns">
+                <div class="product__cart">
+                    <a class="product__cart-btn btn red-btn" href="#">Добавить в корзину</a>
+                    <a class="product__cart-like" href="#">
+                        <svg width="34" height="31" viewBox="0 0 34 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9.54511 2C5.3787 2 2 5.34399 2 9.46966C2 12.8001 3.32039 20.7043 16.3176 28.6946C16.5504 28.8363 16.8177 28.9112 17.0902 28.9112C17.3627 28.9112 17.63 28.8363 17.8628 28.6946C30.86 20.7043 32.1804 12.8001 32.1804 9.46966C32.1804 5.34399 28.8017 2 24.6353 2C21.5948 2 18.9738 4.41094 17.7793 5.71397C17.419 6.10696 16.7614 6.10696 16.4012 5.71397C15.2066 4.41094 12.5856 2 9.54511 2Z" stroke="#EC796C" stroke-width="2.3921" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
 
-                <li class="product__list-item">
-                    Lorem Ipsum
-                    <div class="product__list-line"></div>
-                    100
-                </li>
+                <a class="review-page__btn" href="#">Написать отзыв</a>
+            </div>
 
-                <li class="product__list-item">
-                    Lorem Ipsum
-                    <div class="product__list-line"></div>
-                    100
-                </li>
-
-                <li class="product__list-item">
-                    Lorem Ipsum
-                    <div class="product__list-line"></div>
-                    100
-                </li>
-
-                <li class="product__list-item">
-                    Lorem Ipsum
-                    <div class="product__list-line"></div>
-                    100
-                </li>
-
-                <li class="product__list-item">
-                    Lorem Ipsum
-                    <div class="product__list-line"></div>
-                    100
-                </li>
-
-                <a class="product__list-title" href="#">Все характеристики</a>
-            </ul>
         </div>
     </div>
 </section>
 
-<!-- Reviews -->
-<section class="reviews">
+<!-- Review-list -->
+<section class="review-list">
     <div class="container">
 
-        <div class="product__rating">
-            <p class="product__rating-text"> <span>Отзывы</span> 123</p>
+        <p class="review-list__title"> Отзывы <span>123</span></p>
 
-            <img src="./img/maybe/rating-img.svg" alt="rating-img">
+        <p class="section-text">Фотографии покупателей</p>
 
-            <p class="product__rating-text">Купили более 486 раз</p>
-        </div>
+        <div class="review-list__swiper swiper">
 
-        <p class="section-pretitle section-text">Фотографии покупателей</p>
-
-        <div class="reviews__swiper swiper">
             <div class="swiper-wrapper">
 
                 <div class="swiper-slide">
-                    <div class="reviews__imgs">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                    </div>
-
-                    <div class="reviews__box">
-                        <div class="reviews__inner">
-                            <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
-                            
-                            <div class="reviews__inner-name">
-                                Аннастасия
-                                <img src="./img/reviews/rating-2.svg" alt="rating-2">
-                            </div>
-
-                            <p class="reviews__inner-date">15.07.2022</p>
-                        </div>
-
-                        <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
-                    </div>
+                    <img class="review-list__img" src="./img/reviews/reviews-img.jpg" alt="reviews-img">
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="reviews__imgs">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                    </div>
-
-                    <div class="reviews__box">
-                        <div class="reviews__inner">
-                            <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
-                            
-                            <div class="reviews__inner-name">
-                                Аннастасия
-                                <img src="./img/reviews/rating-2.svg" alt="rating-2">
-                            </div>
-
-                            <p class="reviews__inner-date">15.07.2022</p>
-                        </div>
-
-                        <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
-                    </div>
+                    <img class="review-list__img" src="./img/reviews/reviews-img.jpg" alt="reviews-img">
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="reviews__imgs">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                    </div>
-
-                    <div class="reviews__box">
-                        <div class="reviews__inner">
-                            <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
-                            
-                            <div class="reviews__inner-name">
-                                Аннастасия
-                                <img src="./img/reviews/rating-2.svg" alt="rating-2">
-                            </div>
-
-                            <p class="reviews__inner-date">15.07.2022</p>
-                        </div>
-
-                        <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
-                    </div>
+                    <img class="review-list__img" src="./img/reviews/reviews-img.jpg" alt="reviews-img">
                 </div>
 
                 <div class="swiper-slide">
-                    <div class="reviews__imgs">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
-                    </div>
+                    <img class="review-list__img" src="./img/reviews/reviews-img.jpg" alt="reviews-img">
+                </div>
 
-                    <div class="reviews__box">
-                        <div class="reviews__inner">
-                            <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
-                            
-                            <div class="reviews__inner-name">
-                                Аннастасия
-                                <img src="./img/reviews/rating-2.svg" alt="rating-2">
-                            </div>
-
-                            <p class="reviews__inner-date">15.07.2022</p>
-                        </div>
-
-                        <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
-                    </div>
+                <div class="swiper-slide">
+                    <img class="review-list__img" src="./img/reviews/reviews-img.jpg" alt="reviews-img">
                 </div>
 
             </div>
 
-            <div class="swiper-prev"></div>
-            <div class="swiper-next"></div>
-
         </div>
 
-        <a class="reviews__btn btn red-btn" href="review-page.html">Все отзывы</a>
+        <div class="review-list__links">
+            <a class="review-list__link" href="#">Сортировать по</a>
+            <a class="review-list__link" href="#">Дате</a>
+            <a class="review-list__link" href="#">Оценке</a>
+            <a class="review-list__link" href="#">Полезности</a>
+        </div>
+
+        <div class="review-list__wrapper">
+            <div class="review-list__wrapper-item">
+
+                <div class="reviews__box">
+                    <div class="reviews__inner">
+                        <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
+                        
+                        <div class="reviews__inner-name">
+                            Аннастасия
+                            <img src="./img/reviews/rating-2.svg" alt="rating-2">
+                        </div>
+
+                        <p class="reviews__inner-date">15.07.2022</p>
+                    </div>
+
+                    <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
+                </div>
+
+            </div>
+
+            <div class="review-list__wrapper-item">
+
+                <div class="reviews__box">
+                    <div class="reviews__inner">
+                        <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
+                        
+                        <div class="reviews__inner-name">
+                            Аннастасия
+                            <img src="./img/reviews/rating-2.svg" alt="rating-2">
+                        </div>
+
+                        <p class="reviews__inner-date">15.07.2022</p>
+                    </div>
+
+                    <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
+                    
+                    <div class="reviews__imgs">
+                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
+                        <img src="./img/reviews/reviews-img.jpg" alt="reviews-img">
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div class="review-list__wrapper-item">
+
+                <div class="reviews__box">
+                    <div class="reviews__inner">
+                        <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
+                        
+                        <div class="reviews__inner-name">
+                            Аннастасия
+                            <img src="./img/reviews/rating-2.svg" alt="rating-2">
+                        </div>
+
+                        <p class="reviews__inner-date">15.07.2022</p>
+                    </div>
+
+                    <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
+                </div>
+                
+            </div>
+
+            <div class="review-list__wrapper-item">
+
+                <div class="reviews__box">
+                    <div class="reviews__inner">
+                        <img src="./img/reviews/reviews-icon.jpg" alt="icon" class="reviews__inner-icon">
+                        
+                        <div class="reviews__inner-name">
+                            Аннастасия
+                            <img src="./img/reviews/rating-2.svg" alt="rating-2">
+                        </div>
+
+                        <p class="reviews__inner-date">15.07.2022</p>
+                    </div>
+
+                    <p class="reviews__text">Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text Lorem Ipsum is simplly dummy text lorem Ipsum is simplly dummy text</p>
+                </div>
+                
+            </div>
+
+        </div>
 
     </div>
 </section>

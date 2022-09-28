@@ -131,3 +131,38 @@ const swiperReviews = new Swiper('.reviews__swiper', {
     },
   }
 });
+
+const swiperReviewList = new Swiper('.review-list__swiper', {
+    loop: true,
+
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-next',
+      prevEl: '.swiper-prev',
+    },
+
+
+    // Responsive breakpoints
+    breakpoints: {
+    // when window width is >= 320px
+    320: {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        centeredSlides: true
+    },
+    // when window width is >= 480px
+    480: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+    },
+    720: {
+        slidesPerView: 4,
+        spaceBetween: 20
+    },
+    1200: {
+        slidesPerView: 6,
+        spaceBetween: 20
+    },
+  }
+});
