@@ -1352,6 +1352,60 @@ nav {
   margin-left: 20px;
 }
 
+.showcase {
+  padding: 170px 0 100px;
+  background-image: url(../img/bg-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.showcase__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 10px;
+  background: #F3F3F3;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.showcase__profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  text-align: right;
+}
+
+.showcase__profile-link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2C365A;
+}
+
+.popular-mini {
+  border-radius: 0 100px 0 0;
+}
+
+.best-prices {
+  border-radius: 0 0 0 100px;
+}
+
 .footer__navbar {
   margin: 40px 0;
   display: -webkit-box;

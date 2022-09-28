@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Landing Page">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Интернет-магазин</title>
+    <title>Витрина</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/style.min.css">
 </head>
 
 <body class="main__body">
+
 <!-- Header -->
 <header>
     <!-- Navbar -->
@@ -115,54 +117,91 @@
 <!-- Main Page -->
 <main>
 
-<!-- Hero -->
-<section class="hero">
+<!-- Showcase -->
+<section class="showcase">
     <div class="container">
 
-        <div class="hero__banner">
-            <a class="hero__banner-link" href="product.html">
-                <img src="./img/hero/hero-1.jpg" alt="hero-img">
-            </a>
+        <div class="showcase__wrapper">
+            <div class="product__company">
+                <img class="product__company-img" src="./img/product/company-img.jpg" alt="company-img">
 
-            <div class="hero__banner-inner">
-                <a class="hero__banner-link" href="product.html">
-                    <img src="./img/hero/hero-2.jpg" alt="hero-img">
-                </a>
-    
-                <a class="hero__banner-link" href="product.html">
-                    <img src="./img/hero/hero-3.jpg" alt="hero-img">
-                </a>
+                <div class="product__company-inner">
+                    <p class="product__company-name">Название продавца</p>
+
+                    <div class="product__rating">
+                        <img src="./img/product/company-rate-icon2.svg" alt="rating-img">
+                        <p class="product__rating-text">1234 отзывов</p>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="showcase__profile">
+                <a class="showcase__profile-link" href="#">Профиль</a>
+                <a class="showcase__profile-link" href="#">Все товары</a>
             </div>
         </div>
 
-        <div class="hero__wrapper">
-            <div class="hero__wrapper-item">
-                <img src="./img/hero/hero-icon-1.png" alt="hero-icon">
-                Для дом
-            </div>
+        <a class="hero__banner-link" href="product.html">
+            <img src="./img/hero/hero-1.jpg" alt="hero-img">
+        </a>
 
-            <div class="hero__wrapper-item">
-                <img src="./img/hero/hero-icon-2.png" alt="hero-icon">
-                Для школы
-            </div>
-
-            <div class="hero__wrapper-item">
-                <img src="./img/hero/hero-icon-3.png" alt="hero-icon">
-                Для спорта
-            </div>
-
-            <div class="hero__wrapper-item">
-                <img src="./img/hero/hero-icon-4.png" alt="hero-icon">
-                Техника
-            </div>
-        </div>
     </div>
 </section>
 
-<!-- Popular -->
-<section class="popular">
+<!-- Popular-mini -->
+<section class="popular-mini popular">
     <div class="container">
         <h2 class="popular__title section-title">Популярные</h2>
+
+        <div class="popular__wrapper wrap">
+
+            <a class="wrap__item" href="#">
+                <img class="wrap__item-img" src="./img/popular/wrap-1.jpg" alt="wrap-img">
+                <div class="wrap__item-inner">
+                    <p class="wrap__item-price">000 000 ₽</p>
+                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
+                    <img class="wrap__item-rating" src="./img/popular/rating-img.svg" alt="rating">
+                </div>
+            </a>
+
+            <a class="wrap__item" href="#">
+                <img class="wrap__item-img" src="./img/popular/wrap-2.jpg" alt="wrap-img">
+                <div class="wrap__item-inner">
+                    <p class="wrap__item-price">000 000 ₽</p>
+                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
+                    <img class="wrap__item-rating" src="./img/popular/rating-img.svg" alt="rating">
+                </div>
+            </a>
+
+            <a class="wrap__item" href="#">
+                <img class="wrap__item-img" src="./img/popular/wrap-3.jpg" alt="wrap-img">
+                <div class="wrap__item-inner">
+                    <p class="wrap__item-price">000 000 ₽</p>
+                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
+                    <img class="wrap__item-rating" src="./img/popular/rating-img.svg" alt="rating">
+                </div>
+            </a>
+
+            <a class="wrap__item" href="#">
+                <img class="wrap__item-img" src="./img/popular/wrap-4.jpg" alt="wrap-img">
+                <div class="wrap__item-inner">
+                    <p class="wrap__item-price">000 000 ₽</p>
+                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
+                    <img class="wrap__item-rating" src="./img/popular/rating-img.svg" alt="rating">
+                </div>
+            </a>
+
+        </div>
+
+
+    </div>
+</section>
+
+<!-- Best-prices -->
+<section class="popular best-prices">
+    <div class="container">
+        <h2 class="popular__title section-title">Лучшая цена</h2>
 
         <div class="popular__wrapper wrap">
 
@@ -276,119 +315,10 @@
 
         </div>
 
-        <div class="popular__banner-inner">
-            <a class="popular__banner-link" href="#">
-                <img src="./img/hero/hero-2.jpg" alt="hero-img">
-            </a>
-
-            <a class="popular__banner-link" href="#">
-                <img src="./img/hero/hero-3.jpg" alt="hero-img">
-            </a>
-        </div>
 
     </div>
 </section>
 
-<!-- Maybe -->
-<section class="maybe">
-    <div class="container">
-        <h2 class="maybe__title section-title">Возможно, Вам понравится</h2>
-
-        <div class="maybe__wrapper wrap">
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-1.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-2.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-3.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-4.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-1.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-2.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-3.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-            <a class="wrap__item" href="#">
-                <img class="wrap__item-img" src="./img/maybe/wrap-4.jpg" alt="wrap-img">
-                <div class="wrap__item-inner">
-                    <p class="wrap__item-price">000 000 ₽</p>
-                    <p class="wrap__item-desc">Lorem Ipsum is simply</p>
-                    <img class="wrap__item-rating" src="./img/maybe/rating-img.svg" alt="rating">
-                </div>
-            </a>
-
-        </div>
-
-
-    </div>
-</section>
-
-<!-- Start -->
-<section class="start">
-    <div class="container">
-        <div class="start__wrapper">
-            <p class="start__title section-title">Начните продавать на <span>Все-купить.рф</span></p>
-
-            <p class="start__desc section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor orci magna morbi proin vitae turpis faucibus. Mi dictum ultrices elit cursus erat dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum tempor orci magna morbi proin vitae turpis faucibus. Mi dictum ultrices elit cursus erat dolor.</p>
-
-            <div class="start__inner">
-                <a class="start__btn btn blue-btn" href="#">Частным продоавцам</a>
-                <a class="start__btn btn red-btn" href="#">Для оптовиков</a>
-            </div>
-        </div>
-    </div>
-</section>
 
 </main>
 
@@ -422,6 +352,7 @@
 
 </body>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="./js/scripts.min.js"></script>
 
 </html>
