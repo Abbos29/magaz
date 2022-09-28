@@ -92,3 +92,42 @@ const swiper2 = new Swiper(".mySwiper2", {
     }
 
 });
+
+
+const swiperReviews = new Swiper('.reviews__swiper', {
+    loop: true,
+
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-next',
+      prevEl: '.swiper-prev',
+    },
+
+
+    // Responsive breakpoints
+    breakpoints: {
+    // when window width is >= 320px
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    // when window width is >= 480px
+    480: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    720: {
+        slidesPerView: 1,
+        spaceBetween: 20
+    },
+    900: {
+        slidesPerView: 2,
+        spaceBetween: 20
+    },
+    1200: {
+        slidesPerView: 3,
+        spaceBetween: 30
+    },
+  }
+});
